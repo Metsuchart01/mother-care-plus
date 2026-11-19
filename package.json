@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "serve --single --listen $PORT dist"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.119.1",
@@ -18,6 +19,7 @@
     "react-hook-form": "^7.92.0",
     "react-router-dom": "^7.18.6",
     "recharts": "^3.11.0",
+    "serve": "^14.2.8",
     "tailwindcss": "^4.3.5",
     "zod": "^4.6.7"
   },
